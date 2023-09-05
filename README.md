@@ -23,7 +23,7 @@ Below a detailed implementation of the component is given:
 <html>
 <head>
     <script src='https://aframe.io/releases/1.4.0/aframe.min.js'></script>
-    <script src='js/occlusion-component.js'></script>
+    <script src='https://cdn.jsdelivr.net/gh/akbartus/A-Frame-Occlusion-Component/js/occlusion-component.js'></script>
 </head>
 <body>
     <a-scene>
