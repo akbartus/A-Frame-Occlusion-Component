@@ -32,7 +32,7 @@ Below a detailed implementation of the component is given:
                                       occlusionModelPosition: 0 0 -3;
                                       occlusionModelRotation: 0 0 0;
                                       occlusionModelScale: 1 1 1;
-                                      occlusionModelPart: true;
+                                      occlusionModelPart: false;
                                       partNames: Beta_Surface; 
                                       occludedModelPosition: 0 1 -3.2;
                                       occludedModelRotation: 0 0 0;
