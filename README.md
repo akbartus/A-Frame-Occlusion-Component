@@ -52,6 +52,7 @@ Below a detailed implementation of the component is given:
 </body>
 </html>
 ```
+In addition, a sample implementation of occlusion is provided for Three.js.
 
 ### **Tech Stack**
 The project is powered by AFrame and Three.js
