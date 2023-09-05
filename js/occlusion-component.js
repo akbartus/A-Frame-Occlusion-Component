@@ -37,7 +37,6 @@ AFRAME.registerComponent('occlusion-component', {
                 this.data.occlusionModelScale.y,
                 this.data.occlusionModelScale.z
             );
-            console.log(this.data.occlusionModelPart)
             // Traverse the object hierarchy
             gltf.scene.traverse(function (object) {
                 if (isPart == false) {
@@ -47,9 +46,6 @@ AFRAME.registerComponent('occlusion-component', {
                    
                     }
                 } else {
-                    if(object.isMesh && object.material){
-                        console.log(object.name)
-                    }
                     if (object.isMesh && object.material && occlusionPartNames.includes(object.name)) {
                         object.material.colorWrite = false;                                
                     }
