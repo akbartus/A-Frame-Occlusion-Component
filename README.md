@@ -57,4 +57,4 @@ Below a detailed implementation of the component is given:
 The project is powered by AFrame and Three.js
 
 ### **Demo**
-To see the application at work: [Demo application](https://gltfanimations-runtime.glitch.me/)
+To see the application at work: [Demo application](https://occlusion-component.glitch.me/)
