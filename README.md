@@ -2,7 +2,7 @@
 <img alt="Screenshot" src="img/screenshot.jpg" width="600">
 
 ### **Description / Rationale**
-This is the A-Frame component, which lets achieve occlusion effects.     
+This is the A-Frame component, which lets achieve occlusion effects. It can be useful specifically in webAR related projects.     
 
 ### **Instructions**
 The component has the following attributes:
@@ -16,7 +16,9 @@ The component has the following attributes:
 * occludedModelPosition: { type: 'vec3', default: { x: 0, y: 0, z: -4 } } - occluded model position. 
 * occludedModelRotation: { type: 'vec3', default: { x: 0, y: 0, z: 0 } } - occluded model rotation.
 * occludedModelScale: { type: 'vec3', default: { x: 1, y: 1, z: 1 } } - occluded model scale.
-To see component at work, include "occlusion-component" to a-entity. Below a simple implementation of the component is given: 
+To see component at work, include "occlusion-component" to a-entity.
+
+Below a detailed implementation of the component is given: 
 ```
 <html>
 <head>
