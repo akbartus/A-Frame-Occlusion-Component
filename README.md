@@ -55,7 +55,7 @@ Below a detailed implementation of the component is given:
 ```
 In addition, a sample implementation of occlusion is provided for Three.js.
 
-<b>Note:</b> When making more complex gltf file serve as occluder (not plane or other primitives), the component might not work properly. This issue will be adressed soon.  
+<b>Note:</b> When making more complex gltf file serve as occluder (not plane or other primitives), the component sometimes might not work properly (no occlusion occurs). Changing A-Frame version to 1.2.0 solves this issue. However it will be adressed soon.  
 
 ### **Tech Stack**
 The project is powered by AFrame and Three.js
