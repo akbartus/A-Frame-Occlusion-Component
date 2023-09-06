@@ -22,23 +22,24 @@ Below a detailed implementation of the component is given:
 ```
 <html>
 <head>
-    <script src='https://aframe.io/releases/1.4.0/aframe.min.js'></script>
+    <title>A-Frame Occlusion Component</title>
+    <script src='https://aframe.io/releases/1.4.2/aframe.min.js'></script>
     <script src='https://cdn.jsdelivr.net/gh/akbartus/A-Frame-Occlusion-Component/js/occlusion-component.js'></script>
 </head>
 <body>
     <a-scene>
-        <a-entity occlusion-component="occlusionModelUrl: 3d/xbot.glb;
-                                      occludedModelUrl: 3d/plane.glb;
-                                      occlusionModelPosition: 0 0 -3;
+        <a-entity occlusion-component="occlusionModelUrl: https://cdn.glitch.global/e8ae677c-5258-4984-ad8d-347b2293a371/plane.glb;
+                                      occludedModelUrl: https://cdn.glitch.global/e8ae677c-5258-4984-ad8d-347b2293a371/xbot.glb;
+                                      occlusionModelPosition: 0 1 -3;
                                       occlusionModelRotation: 0 0 0;
-                                      occlusionModelScale: 1 1 1;
+                                      occlusionModelScale: 2 2 2;
                                       occlusionModelPart: false;
                                       partNames: Beta_Surface; 
-                                      occludedModelPosition: 0 1 -3.2;
+                                      occludedModelPosition: 0 0 -4;
                                       occludedModelRotation: 0 0 0;
                                       occludedModelScale: 2 2 2;"></a-entity>
-        <a-entity occlusion-component="occlusionModelUrl: 3d/sphere.glb;
-                                      occludedModelUrl: 3d/box.glb;
+        <a-entity occlusion-component="occlusionModelUrl: https://cdn.glitch.global/e8ae677c-5258-4984-ad8d-347b2293a371/sphere.glb;
+                                      occludedModelUrl: https://cdn.glitch.global/e8ae677c-5258-4984-ad8d-347b2293a371/box.glb;
                                       occlusionModelPosition: -3 1 -3;
                                       occlusionModelRotation: 0 0 0;
                                       occlusionModelScale: 1 1 1;
@@ -53,6 +54,7 @@ Below a detailed implementation of the component is given:
 </html>
 ```
 In addition, a sample implementation of occlusion is provided for Three.js.
+Note: When making more complex gltf file as occluder (not plane or other primitives), the component might not work properly. This issue will be adressed soon.  
 
 ### **Tech Stack**
 The project is powered by AFrame and Three.js
