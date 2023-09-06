@@ -54,7 +54,8 @@ Below a detailed implementation of the component is given:
 </html>
 ```
 In addition, a sample implementation of occlusion is provided for Three.js.
-Note: When making more complex gltf file as occluder (not plane or other primitives), the component might not work properly. This issue will be adressed soon.  
+
+<b>Note:</b> When making more complex gltf file serve as occluder (not plane or other primitives), the component might not work properly. This issue will be adressed soon.  
 
 ### **Tech Stack**
 The project is powered by AFrame and Three.js
